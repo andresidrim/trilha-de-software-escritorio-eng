@@ -1,0 +1,27 @@
+Tópicos da semana 1:
+    - Parte 1:
+        - Variáveis simples
+        - Arrays
+        - Condicionais
+        - Laços de repetição
+        - Funções
+
+    - Parte 2:
+        - Node.JS é necessário para realizar os passos da parte 2,
+        verifique se já está instalado na sua maquina com os comandos:
+            node -v
+            npm -v
+
+        - Também verifique se o Node.JS está incluso no PATH da sua
+        máquina
+
+        - TypeScript
+            - Instalação dos pacotes necessários
+                - npm install -g typescript
+                - npm intall -g ts-node
+            - Criação de projeto:
+                - npm init -y
+                - tsconfig.json
+            - Execução de arquivos .ts
+                - ts-node <seu-arquivo.ts>
+                - Exemplo: ts-node arrays.ts

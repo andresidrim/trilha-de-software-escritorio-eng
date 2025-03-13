@@ -1,0 +1,14 @@
+// Arquivo de configuração do TypeScript
+// 
+{
+  "compilerOptions": { // Opções do compilador do TypeScript
+    "target": "ESNext", // Versão de compilação
+    "module": "ESNext", // Versão dos modulos dos arquivos compilados
+    "moduleResolution": "node", // Segue a logica de resolução do Node.JS
+    "esModuleInterop": true, // Habilita a importação direta de modulos
+    "outDir": "dist", // Caminho dos arquivos compilados
+    "rootDir": ".", // Caminho base do projeto
+    "strict": true, // Tipágem estrita
+    "resolveJsonModule": true // Permite importação direta de arquivos JSON
+  }
+}
