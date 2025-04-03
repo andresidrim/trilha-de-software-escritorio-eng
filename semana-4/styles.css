@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #231626;
+    padding-block: 8rem;
+    padding-inline: 16rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 3rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4rem;
+    background-color: #d6ccd9;
+
+    &:focus {
+        outline: solid 2px #ede6f0;
+    }
+}
+
+.add-button {
+    width: fit-content;
+    font-size: 1.25rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #15ad3d;
+    color: white;
+    font-weight: 600;
+    transition: background-color 150ms ease-in-out;
+}
+
+.add-button:hover {
+    background-color: #097325;
+}
+
+.add-button:active {
+    background-color: #033d12;
+}
+
+.remove-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    padding: 1rem 1rem;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #e31b1b;
+    color: white;
+    font-weight: 700;
+    transition: background-color 150ms ease-in-out;
+
+}
+
+.remove-button:hover {
+    background-color: #8a0808;
+}
+
+.remove-button:active {
+    background-color: #420303;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 50%;
+}
+
+li {
+    color: white;
+    max-width: 340px;
+    font-size: 1.25rem;
+    width: 100%;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li span {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}

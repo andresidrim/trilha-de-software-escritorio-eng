@@ -1,0 +1,7 @@
+Campo de texto + botão "Adicionar"
+
+Lista de tarefas exibida abaixo
+
+Botão "Remover" ao lado de cada tarefa
+
+Tratamento de input
