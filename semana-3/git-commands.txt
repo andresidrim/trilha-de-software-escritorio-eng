@@ -1,0 +1,72 @@
+# Comandos Git Essenciais - Guia Rápido (Português Brasileiro)
+
+🔧 **Configuração Inicial**
+- `git config --global user.name "Seu Nome"`  
+  Define o nome do usuário nos commits.
+- `git config --global user.email "seu@email.com"`  
+  Define o e-mail associado aos commits.
+
+📦 **Inicializar e Clonar Repositórios**
+- `git init`  
+  Cria um novo repositório Git local.
+- `git clone <url>`  
+  Clona um repositório remoto para sua máquina.  
+  Ex: `git clone https://github.com/usuario/repositorio.git`
+
+📄 **Status e Histórico**
+- `git status`  
+  Mostra arquivos modificados, novos e não rastreados.
+- `git log`  
+  Exibe o histórico de commits.
+- `git show <hash>`  
+  Mostra detalhes de um commit específico.
+
+📁 **Adicionar e Confirmar Alterações**
+- `git add <arquivo>`  
+  Adiciona um arquivo ao stage.  
+  Ex: `git add index.html`
+- `git add .`  
+  Adiciona todas as mudanças.
+- `git commit -m "mensagem"`  
+  Salva as alterações com uma mensagem.  
+  Ex: `git commit -m "Adiciona navbar responsiva"`
+
+🔄 **Sincronização com o Repositório Remoto**
+- `git pull`  
+  Atualiza seu repositório local com o remoto.
+- `git push`  
+  Envia os commits locais para o repositório remoto.
+- `git push -u origin main`  
+  Define `main` como branch padrão para push.
+
+🌿 **Trabalhando com Branches**
+- `git branch`  
+  Lista as branches locais.
+- `git branch <nome>`  
+  Cria uma nova branch.
+- `git checkout <branch>`  
+  Troca para a branch especificada.
+- `git checkout -b <nome>`  
+  Cria e já muda para a nova branch.
+- `git merge <branch>`  
+  Mescla uma branch à atual.
+- `git branch -d <branch>`  
+  Deleta uma branch local.
+
+🧪 **Desfazendo Mudanças**
+- `git restore <arquivo>`  
+  Desfaz alterações em um arquivo.
+- `git reset HEAD <arquivo>`  
+  Remove o arquivo do stage.
+- `git revert <hash>`  
+  Cria um novo commit que desfaz um commit anterior.
+
+🛠️ **Outros úteis**
+- `git remote -v`  
+  Lista os repositórios remotos.
+- `git stash`  
+  Salva mudanças temporariamente sem commit.
+- `git stash pop`  
+  Restaura mudanças guardadas.
+
+📌 **Dica**: Use `git help <comando>` para ver ajuda detalhada.
