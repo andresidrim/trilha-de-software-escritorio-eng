@@ -1,3 +1,5 @@
+// getElementById -> busca o elemento na pagina pelo seu ID
+
 const taskInput = document.getElementById("taskInput");
 const addTaskBtn = document.getElementById("addTaskBtn");
 const taskList = document.getElementById("taskList");
